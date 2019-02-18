@@ -42,7 +42,12 @@ In between the button opening and closing tag write anything you want like click
 </html>
  
  ```
-create another file called jquery.js and paste the jquery document from the jquery official site or use CDN
+Download Jquery using ```npm install jquey``` after it has been downloaded take jquery.min.js in from the jquery folder that ou have downloaded and paste it your project and import it in the index.html like this;
+
+``` <script src="jquery.min.js"></script> ``` just before closing body tag.
+
+OR use jquery CDN;
+
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
