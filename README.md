@@ -55,7 +55,7 @@ OR use jquery CDN;
 6.In the `style.css` file put any styles you want for your web page.
 
 ```
-style.css
+
 body{
    margin: 0; 
    
