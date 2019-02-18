@@ -1,10 +1,8 @@
 # Jquery-alert
 
-1.Create an index.html file using text editor of your choice. 
+1.Create an `index.html` file using text editor of your choice. 
 
-2.Inside the index page create html document, if you are using sublime type html and tab or if you using visual studio code type html:5 and tab to complete document.
-
-you can paste the code below to get started if you're too lazy to follow instruction.
+2.In `index.html` file, create html document, if you are using sublime type html and tab or if you using visual studio code type html:5 and tab to complete document, or type everything like this.
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -54,9 +52,8 @@ OR use jquery CDN;
 
 ```
 
-6.In the style.css file put any styles you want for your web page.
+6.In the `style.css` file put any styles you want for your web page.
 
-Example;
 ```
 style.css
 body{
