@@ -1,0 +1,17 @@
+body{
+   margin: 0; 
+   
+}
+.alert{
+    margin-top:30px;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+button{
+    padding: 10px 30px;
+    background-color:red;
+    color:#fff;
+    border-style: none;
+
+}
