@@ -18,12 +18,12 @@
 </body>
 </html>
 ```
-3.Create a div, `<div></div>`( a place to hold other html tags,)
+3.Create a div, `html <div></div>`( a place to hold other html tags,)
 
-4.After div tag create another tag ; `<button></button>`.
+4.After div tag create another tag ; `html <button></button>`.
 
 In between the button opening and closing tag write anything you want like click me, button etc
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,18 +43,19 @@ In between the button opening and closing tag write anything you want like click
  ```
 5.Download Jquery using ```npm install jquey``` from the downloaded jquery folder take jquery.min.js file and paste it in your project,import it in the index.html like this;
 
-``` <script src="jquery.min.js"></script> ``` just before closing body tag.
+```jquery
+<script src="jquery.min.js"></script> ``` just before closing body tag.
 
 OR use jquery CDN;
 
-```
+```jquery
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 ```
 
 6.In the `style.css` file put any styles you want for your web page.
 
-```
+```css
 
 body{
    margin: 0; 
