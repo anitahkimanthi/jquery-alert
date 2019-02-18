@@ -45,6 +45,7 @@ In between the button opening and closing tag write anything you want like click
 
 ```jquery
 <script src="jquery.min.js"></script> ``` just before closing body tag.
+```
 
 OR use jquery CDN;
 
