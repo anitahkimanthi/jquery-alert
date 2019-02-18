@@ -1,11 +1,12 @@
 # jquery-alert
-learning jquery basics 
-creat an index.html page 
+## learning jquery basics 
 
-Inside the index page create html document, if you are using sublime type html and tab or if you using visual studio code type html:5 and tab to complete document.
+1.creat an index.html page 
+
+2.Inside the index page create html document, if you are using sublime type html and tab or if you using visual studio code type html:5 and tab to complete document.
 
 you can paste the code below to get started if you're too lazy to follow instruction.
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +20,10 @@ you can paste the code below to get started if you're too lazy to follow instruc
    
 </body>
 </html>
-Create a div( a place to hold other html tags,)
+```
+3.Create a div, `<div></div>`( a place to hold other html tags,)
 
-After div tag create another tag ; <button></button>
+4.After div tag create another tag ; <button></button>
 
 In between the button opening and closing tag write anything you want like click me, button etc
 ```
@@ -42,7 +44,7 @@ In between the button opening and closing tag write anything you want like click
 </html>
  
  ```
-Download Jquery using ```npm install jquey``` after it has been downloaded take jquery.min.js in from the jquery folder that ou have downloaded and paste it your project and import it in the index.html like this;
+5.Download Jquery using ```npm install jquey``` after it has been downloaded take jquery.min.js in from the jquery folder that ou have downloaded and paste it your project and import it in the index.html like this;
 
 ``` <script src="jquery.min.js"></script> ``` just before closing body tag.
 
@@ -53,7 +55,7 @@ OR use jquery CDN;
 
 ```
 
-In the style.css file put any styles you want for your web page.
+6.In the style.css file put any styles you want for your web page.
 
 Example;
 ```
