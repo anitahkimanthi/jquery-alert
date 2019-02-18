@@ -14,24 +14,33 @@
 
         <br>
         <br>
-        <a class="disappear" href="#hide">When you click me I disappear</a>
+        <h4>Hide method</h4>
+        <p>click the link to make it disappear</p>
+        <a class="disappear" href="#hide">Disappear</a>
         <br>
         <br>
 
-        <a class="toggle" href="#Open">Click me to open another div with content</a>
+        <h4>Toggle onclick</h4>
+        <p>Click me to open another div with content and click again to close me.</p>
+        <a class="toggle" href="#Open">Toggle me</a>
 
         <div class="toggle-div">
-            <h4>I am a div that was open when you clicked the link that says I Open another div with a content</h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quam cumque? Deleniti sunt atque unde odio est repudiandae itaque, 
-            incidunt perferendis expedita soluta officia accusamus temporibus distinctio ullam reiciendis quos.
+            <h4>I am a div that was open when you clicked the link that says I Open another div with a content.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quam cumque? Deleniti sunt atque unde odio est repudiandae itaque, 
+            incidunt perferendis expedita soluta officia accusamus temporibus distinctio ullam reiciendis quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quam cumque? Deleniti sunt atque unde odio est repudiandae itaque, 
+                incidunt perferendis expedita soluta officia accusamus temporibus distinctio ullam reiciendis quos.</p>
             <br>
         </div>
         <br>
         <br>
-        <a class="has-target-link" href="https://jquery.com">When you click me i will not go to Jquery.com</a> 
+        <h4>Prevent Default</h4>
+        <p>When you click the the link it won't take you to the target link instead it will only show alert</p>
+        <a class="has-target-link" href="https://jquery.com">Dont go to the target link</a> 
         <br>
         <br>
 
+        <h4>On mouseleave event</h4>
         <button class="get-away">Get cursor near me and remove to see</button>
         
     </div>
@@ -50,7 +59,7 @@
         })
 
         $('.toggle').click(function (event){
-            $('.toggle-div').addClass('show')
+            $('.toggle-div').slideToggle("slow")
         })
 
         $('.get-away').mouseleave(function (event){
