@@ -22,7 +22,7 @@ you can paste the code below to get started if you're too lazy to follow instruc
 ```
 3.Create a div, `<div></div>`( a place to hold other html tags,)
 
-4.After div tag create another tag ; <button></button>
+4.After div tag create another tag ; `<button></button>`.
 
 In between the button opening and closing tag write anything you want like click me, button etc
 ```
