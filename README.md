@@ -23,7 +23,7 @@ Create a div( a place to hold other html tags,)
 
 After div tag create another tag ; <button></button>
 
-In between opening and closing tag write anything you want like click, button like below
+In between the button opening and closing tag write anything you want like click me, button etc
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -42,9 +42,11 @@ In between opening and closing tag write anything you want like click, button li
 </html>
  
  ```
-create another file called jquery.js and style.css
+create another file called jquery.js and paste the jquery document from the jquery official site or use CDN
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-In jquery.js paste the jquery document from the jquery official site or use CDN
+```
 
 In the style.css file put any styles you want for your web page.
 
