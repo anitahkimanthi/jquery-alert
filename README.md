@@ -1,7 +1,7 @@
 # jquery-alert
 ## learning jquery basics 
 
-1.creat an index.html page 
+1.Create an index.html file using any your text editor of your choice. 
 
 2.Inside the index page create html document, if you are using sublime type html and tab or if you using visual studio code type html:5 and tab to complete document.
 
