@@ -18,9 +18,9 @@
 </body>
 </html>
 ```
-3.Create a div, `html <div></div>`( a place to hold other html tags,)
+3.Create a div, ```html <div></div>```( a place to hold other html tags,)
 
-4.After div tag create another tag ; `html <button></button>`.
+4.After div tag create another tag ; ```html <button></button>```.
 
 In between the button opening and closing tag write anything you want like click me, button etc
 ```html
