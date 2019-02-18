@@ -4,7 +4,7 @@ creat an index.html page
 
 Inside the index page create html document, if you are using sublime type html and tab or if you using visual studio code type html:5 and tab to complete document.
 
-you can paste the code below to get started if too lazy to follow instruction.
+you can paste the code below to get started if you're too lazy to follow instruction.
 
 <!DOCTYPE html>
 <html lang="en">
