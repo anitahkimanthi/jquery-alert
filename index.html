@@ -14,37 +14,45 @@
 
         <br>
         <br>
-        <a class="disappear" href="#Hide">I am a link when you click me i desappear</a>
+        <a class="disappear" href="#hide">I am a link when you click me i desappear</a>
         <br>
         <br>
         <a class="toggle" href="#Open">I am a link I open another div with content</a>
         <br>
         <br>
 
+        <a class="has-target-link" href="https://jquery.com">When you click me i will not go to Jquery.com</a> 
+        <br>
+        <br>
         <div class="toggle-div">
-            I am a div that was open when you clicked the link that says I Open another div with a content
+            <h4>I am a div that was open when you clicked the link that says I Open another div with a content</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quam cumque? Deleniti sunt atque unde odio est repudiandae itaque, 
+            incidunt perferendis expedita soluta officia accusamus temporibus distinctio ullam reiciendis quos.
         </div>
     </div>
     <script src="jquery.min.js"></script>
     
     <script>
+
     $(document).ready(function(){
+
         $('button').click(function(){
             alert('hey you clicked me what can I do for you?')
         })
-    })
 
-    $.get("index.html", function(){
-        myCallBack(param1,param2);
-    })
-
-    $(document).ready(function(){
         $('.disappear').click(function (event){
             $('.disappear').addClass('hide')
         })
 
         $('.toggle').click(function (event){
             $('.toggle-div').addClass('show')
+        })
+
+        $('.has-target-link').click(function(event){
+
+            alert( "When you clicked me I opened an alert but after clicking okay I won't go to jquery.com because you prevented my default behavour of always going to the directed link." );
+
+            event.preventDefault();
         })
     })
     </script>

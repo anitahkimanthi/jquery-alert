@@ -3,10 +3,11 @@ body{
    
 }
 .alert{
-    margin-top:30px;
+    margin: 0 auto;
     text-align: center;
-    align-content: center;
-    justify-items: center;
+    margin-top:30px;
+    max-width:500px;
+    min-width:100px;
 }
 button{
     padding: 10px 30px;
