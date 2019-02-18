@@ -10,7 +10,20 @@
 <body>
     
     <div class="alert">
-        <button>Click me</button>
+        <button>Click me to show alert</button>
+
+        <br>
+        <br>
+        <a class="disappear" href="#Hide">I am a link when you click me i desappear</a>
+        <br>
+        <br>
+        <a class="toggle" href="#Open">I am a link I open another div with content</a>
+        <br>
+        <br>
+
+        <div class="toggle-div">
+            I am a div that was open when you clicked the link that says I Open another div with a content
+        </div>
     </div>
     <script src="jquery.min.js"></script>
     
@@ -18,6 +31,20 @@
     $(document).ready(function(){
         $('button').click(function(){
             alert('hey you clicked me what can I do for you?')
+        })
+    })
+
+    $.get("index.html", function(){
+        myCallBack(param1,param2);
+    })
+
+    $(document).ready(function(){
+        $('.disappear').click(function (event){
+            $('.disappear').addClass('hide')
+        })
+
+        $('.toggle').click(function (event){
+            $('.toggle-div').addClass('show')
         })
     })
     </script>
